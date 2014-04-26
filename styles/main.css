@@ -1,0 +1,430 @@
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+	
+
+#right h2{
+	color: #ecf0f1;
+	font-size: 40px;
+	font-family: 'Krona One'
+
+}
+
+
+header {
+	height: 720px;
+	background: url('../images/UIbg.png') 0 0 no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/*navigation*/
+
+#container{
+	height: 15%;
+	background: rgba(0,0,0,0.3);
+	margin-top:-15px;
+}
+
+#mobnav{
+  display: none;
+  color: white;
+}
+
+#brand {
+	padding-top: 20px;
+	float: left;
+	z-index: 3;
+}
+
+
+header nav ul {
+	list-style-type: none;
+	}
+
+header nav ul li {
+	display: inline;
+	padding: 25px;
+	margin-top: 2%;
+	font-size: 28px;
+	font-family: 'Poiret One', sans-serif;
+	float: right;
+	
+
+}
+
+ul li a:hover, a:link, a:visited, a:active {
+	color: white;
+	text-decoration: none;
+	
+}
+
+/*Mobile w/ Hand*/
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+#headui {
+	padding-top: 130px;
+	float: left;
+	width: 35%;
+}
+
+#google{
+	padding-top: 50px;
+	float: left;
+	width: 34%;
+	z-index: 3;	
+}
+#google img{
+	float: right;
+	height: 100px;
+	width: 331px;
+}
+
+#apple {
+	padding-top: 30px;
+	float: right;
+	width: 50%;
+}
+
+#apple img{
+	height: 100px;
+	width: 331px;
+}
+
+
+.overlay{
+	background: rgba(52, 152, 219,.3);
+	overflow: hidden;
+	height: 100%;
+	z-index: 2;
+
+}
+
+
+#right{
+	padding: 150px 0 0 0;
+	float: right;
+	width: 50%;
+
+}
+
+
+
+#about h1{
+	color: #2c3e50;
+	padding-left:20%; 
+	padding-top: 50px;
+	font-family: 'Poiret One', 'cursive';
+	font-size: 40px;
+	text-align: center;
+
+}
+
+#about p{
+	font-size: 20px;
+	font-family: 'Duru Sans', sans-serif;
+	padding: 10px;
+}
+
+#walk {
+	padding-top: 250px;
+	float: right;
+	width: 30%;
+}
+#walk img{
+	height: 231px;
+}
+
+.left {
+	float: left;
+	width: 600px;
+	padding: 30px;
+}
+
+
+
+.left p {
+	width: 600px;
+	
+}
+
+
+#iphoneWhite{
+	/*background-color: url('../styles/cook.jpg')no-repeat;
+	*/float:right;
+	width: 40%;
+}
+
+
+section#bg2	{
+	height: 720px;
+	background: url('../images/bridge.png') 0 0 no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+}
+
+#overlay2{
+	background: rgba(52, 152, 219, .4);
+	overflow: hidden;
+	height: 100%;
+	z-index: 2;
+
+}
+
+
+section#bg2 h1 { 
+	color: white;
+	padding-top: 130px;
+	font-family: 'Poiret One';
+	font-size:40px;
+}
+
+
+
+/*section#para { 
+	padding-top: 430px;
+}*/
+
+
+#overlay { 
+	background: rgba(52, 152, 219, .3);
+	overflow: hidden;
+	height: 100%;
+	z-index: 2;
+}
+
+
+section#bg3	{
+	height: 720px;
+	background: url('../images/bg3.png') 0 0 no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+}
+
+section#bg3 h1 { 
+	color: #bdc3c7;
+	padding-top: 130px;
+	font-family: 'Poiret One';
+	font-size:40px;
+}
+
+
+footer{
+	float: left;
+	width: 100%;
+	background-color: #252525;
+}
+
+#foot{
+	
+	color: white;
+	padding: 30px;
+}
+
+#contact{
+
+}
+#twitter{
+	float: right;
+	padding-top: 10px;
+	
+}
+
+#twitter img{
+	height:136px;
+}
+
+#facebook{
+	padding-bottom: 50px;
+	float: right;
+	width: 30%;
+}
+
+#facebook img{
+	height: 156px;
+}
+
+footer p{
+	
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 14px;
+
+}
+
+@media (min-width:1169px) and (max-width: 1327px){
+ 	#headui {
+ 		width: 50%;
+ 		padding-left: 30;
+		
+	}
+
+	#headui img{
+		float: left;
+	}
+}
+@media (min-width:1028px) and (max-width: 1327px){
+#headui {
+	width: 15%;
+	float: left;
+}
+
+#headui {
+	padding-right: 500px;
+}
+
+}
+@media (min-width:480px) and (max-width: 900px){
+	
+	#headui {
+		width: 10%;
+	}
+
+	#headui img{
+		float: right;
+	}
+
+	#google{
+		width: 44%;
+	}
+
+	#iphoneWhite{
+		width: 80%
+	}
+
+
+	#walk{
+		width: 23%;
+		padding-top: 100px;
+		padding-right: 20%;
+		float: left;
+	}
+
+	#walk img {
+		float: left;
+		padding-left: 350px;
+	}
+
+	#para{
+		padding-top: 300px; 
+	}
+
+	
+
+	#para2{
+		float: left;
+		padding-left: 30%;
+		width: 150%
+
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+	#navi{
+		display: none;
+	}
+
+	#mobnav{
+		display: block;
+		float: right;
+		padding: 20px 10px 0 0 ;
+
+	}
+
+	#headui img {
+	 display: none
+		}
+
+	#right {
+		float: left;
+		padding: 0;
+		width: 100%;
+	}
+
+	#right h2{
+		padding: 15px;
+	}
+
+	#apple{
+		float: left;
+		padding-top: 0px; 
+	}
+	#apple img{
+		padding: 15px;
+	}
+
+	#google{
+		padding-top: 90px;
+
+	}
+
+	#google img{
+		padding: 15px;
+	}
+
+
+	#parax{
+		width: 50%;
+	}
+
+	#iphoneWhite{
+		width: 100%;
+	}
+
+	#walk{
+		width: 80%;
+		padding-top: 60px;
+	}
+
+	#para{
+		float: left;
+		width: 70%;
+	}
+	#para h1{
+		padding-top: 0px;
+	}
+
+	#para2 {
+		width: 78%;
+		float: left;
+	}
+
+	#message{
+		width: 170%;
+		padding-top:0px; 
+	}
+	#message h1{
+		width: 40px;
+
+	}
+	#twitter{
+		padding-top: 100px;
+		float: left;
+	}
+
+	#facebook{
+		padding-top: 90px;
+		width: 40%;
+	}
+
+}
+
